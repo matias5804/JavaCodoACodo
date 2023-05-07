@@ -23,9 +23,6 @@
     align-items: center;
 }
 
-//font-family: 'Inter', sans-serif;
-//font-family: 'Roboto', sans-serif;
-
 .carouselLanding{
   border:1px solid black;
   height:100px;
@@ -41,19 +38,180 @@
   align-items:center;
   justify-content:center;
 }
+.cardOradores{
 
+
+}
 .divCardsOradores{
   max-width:375px;
   display:flex;
   flex-direction:column;
-  gap:10px;gi
+  gap:20px;
 }
 .divImgCardOradores{
   height:375px;
   width:375px;
+  
 }
 .divImgCardOradores img{
-  height:375px;
-  width:auto;
+  height:100%;
+  max-width:100%;
+
   
+}
+
+.btnCardOradores{
+  display:flex; 
+  gap:10px;
+  margin-bottom:5px;
+}
+
+.btnJs{
+  background-color:yellow;
+  padding:5px;
+  border-radius:5px;
+}
+
+.btnReact{
+  padding:5px;
+  border-radius:5px;
+  background-color:blue;
+  color:white
+}
+.btnNegocios{
+  padding:5px;
+  border-radius:5px;
+  background-color:gray;
+  color:white;
+}
+
+.btnStartups{
+  padding:5px;
+  border-radius:5px;
+  background-color:red;
+  color:white
+}
+
+.divTxtCardOradores{
+  padding:15px;
+  border: solid 1px gray;
+}
+.divTxtCardOradores h3{ 
+  font-weight: bold;
+  margin-bottom:10px;
+  font-size:x-large;
+  
+}
+
+.divTxtCardOradores p{
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+
+.conoceOradores{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:30px;
+  gap:5px;
+  text-transform: uppercase;
+}
+.conoceOradores h1{
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+.sectionB{
+  margin-top:20px;
+}
+
+.baner{
+  display:flex;
+  flex-direction: column;
+}
+
+.divImgBaner{
+  
+}
+.divImgBaner img{
+  max-width:100%;
+  height:auto;
+}
+
+
+.divInfoBaner{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:15px;
+  padding:15px;
+  background-color: #343a40;
+  color:white;
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+
+.divInfoBaner p{
+  font-weight: 300;
+}
+.divInfoBaner button{
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;  
+  border-radius:5px;
+  color:white;
+  padding:5px 10px;
+  border: 1px solid white;
+}
+.divInfoBaner button:hover{
+  border: 1px solid white;
+  color:black;
+  background-color: white;
+}
+
+
+.footer{
+  background: rgba(13,36,61,1);
+  background: -moz-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(13,36,61,1)), color-stop(0%, rgba(13,36,61,1)), color-stop(98%, rgba(73,155,234,1)));
+  background: -webkit-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
+  background: -o-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
+  background: -ms-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
+  background: linear-gradient(to right, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d243d', endColorstr='#499bea', GradientType=1 );
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+}
+
+.footer ol{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+.footer ul{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.footer li:hover{
+  text-decoration:underline;
+}
+.footer h4{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color:black;
+  border-top:1px solid black;
+  padding-top:20px;
 }

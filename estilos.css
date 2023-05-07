@@ -194,12 +194,12 @@
 .footer ol{
   display:flex;
   flex-direction: column;
-  gap:10px;
+  gap:11px;
 }
 .footer ul{
   display:flex;
   flex-direction: column;
-  gap:10px;
+  gap:11px;
 }
 
 .footer li:hover{

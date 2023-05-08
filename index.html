@@ -60,51 +60,63 @@
     <!--FIN DEL HEADER-->
 
     <main>
-
-      
-
       <section class="carouselLanding">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/img/ba2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Conf Bs As</h5>
-              <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet.</p>
-              <div class="button-group">
-                <button class="btn btn-outline-light mr-2">Quiero ser orador</button>
-                <button class="btn btn-success">Registrarse</button>
+        <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/ba2.jpg" class="d-block w-100 imageCarousel" alt="..." />
+              <div class="carousel-caption d-none d-md-block carousel-info">
+                <h1>Conf Bs As</h1>
+                <p>
+                  Bs As llega por primera vez a Argentina. Un evento para
+                  compartir con nuestra comunidad el conocimiento y experiencia
+                  de los expertos que están creando el futuro de Internet. Ven a conocer a mienbros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!.
+                </p>
+                <div class="button-group">
+                  <button class="btn btn-outline-light mr-2">
+                    Quiero ser orador
+                  </button>
+                  <button class="btn btn-success">Comprar Tickets</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/img/ba3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Conf Bs As</h5>
-              <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet.</p>
-              <div class="button-group">
-                <button class="btn btn-outline-light mr-2">Quiero ser orador</button>
-                <button class="btn btn-success">Registrarse</button>
+            <div class="carousel-item">
+              <img src="./assets/img/ba3.jpg" class="d-block w-100 imageCarousel" alt="..." />
+              <div class="carousel-caption d-none d-md-block carousel-info">
+                <h1>Conf Bs As</h1>
+                <p>
+                  Bs As llega por primera vez a Argentina. Un evento para
+                  compartir con nuestra comunidad el conocimiento y experiencia
+                  de los expertos que están creando el futuro de Internet. Ven a conocer a mienbros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+                </p>
+                <div class="button-group">
+                  <button class="btn btn-outline-light mr-2">
+                    Quiero ser orador
+                  </button>
+                  <button class="btn btn-success">Comprar Tickets</button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/img/ba1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Conf Bs As</h5>
-              <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet.</p>
-              <div class="button-group">
-                <button class="btn btn-outline-light mr-2">Quiero ser orador</button>
-                <button class="btn btn-success">Registrarse</button>
+            <div class="carousel-item">
+              <img src="./assets/img/ba1.jpg" class="d-block w-100 imageCarousel" alt="..." />
+              <div class="carousel-caption d-none d-md-block carousel-info">
+                <h1>Conf Bs As</h1>
+                <p>
+                  Bs As llega por primera vez a Argentina. Un evento para
+                  compartir con nuestra comunidad el conocimiento y experiencia
+                  de los expertos que están creando el futuro de Internet. Ven a conocer a mienbros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+                </p>
+                <div class="button-group">
+                  <button class="btn btn-outline-light mr-2">
+                    Quiero ser orador
+                  </button>
+                  <button class="btn btn-success">Comprar Tickets</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
       </section>
-
-
 
       <section class="sectionOradores">
         <div class="conoceOradores">
@@ -190,14 +202,19 @@
         </div>
       </section>
 
-      <section class="convierteteOrador">
-        <div class="conoceOradores">
-          <h3>Conviertete</h3>
-          <h1>Oradores</h1>
+      <section class="bigConvierteteOrador">
+        <div class="convierteteOradorTitle">
+          <h4>Convíertete en un</h4>
+          <h1>Orador</h1>
         </div>
-        <form>
-          <div>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <form class="formOrador">
+          <h5 >Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</h5>
+          <div class="divInputsUno">
+            <input
+             type="text" 
+             id="nombre" 
+             name="nombre" 
+             placeholder="Nombre" />
 
             <input
               type="text"
@@ -206,14 +223,17 @@
               placeholder="Apellido"
             />
           </div>
-          <div>
+          <div class="divTextareaForm">
             <textarea
               id="mensaje"
               name="mensaje"
-              placeholder="- Sobre qué quieres hablar?"
+              placeholder="Sobre qué quieres hablar?"
             ></textarea>
+            <h6>Recuerda incluir un título para tu charla</h6>
           </div>
-          <button type="submit">Enviar</button>
+          <div class="divBtnForm"> 
+            <button class="btnEnviarForm" type="submit">Enviar</button>
+          </div>
         </form>
       </section>
     </main>
@@ -233,8 +253,8 @@
         </ul>
       </ol>
 
-      <hr>
-<hr>
+      <hr />
+      <hr />
       <h4>Matias Alonso Pisani - Codo a Codo JAVA 2023</h4>
     </footer>
   </body>

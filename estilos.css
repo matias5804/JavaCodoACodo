@@ -2,7 +2,6 @@
   background-color: #333;
 }
 
-
 .navbar-nav .nav-link {
   color: #fff;
 }
@@ -14,201 +13,428 @@
   margin-left: 10px;
 }
 
-.brandHeader{
-    width: 120px;
+.brandHeader {
+  width: 120px;
 }
 
-.divBrandHeader{
-    display: flex;
-    align-items: center;
+.divBrandHeader {
+  display: flex;
+  align-items: center;
 }
 
-.carouselLanding{
-  margin-top:50px !important;
-}
-.carousel{
-  margin-top:47px !important;
-}
-.sectionOradores{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-}
-.cardOradores{
-
-
-}
-.divCardsOradores{
-  max-width:375px;
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-}
-.divImgCardOradores{
-  height:375px;
-  width:375px;
-  
-}
-.divImgCardOradores img{
-  height:100%;
-  max-width:100%;
-
-  
+.carouselLanding {
+  margin-top: 94px !important;
 }
 
-.btnCardOradores{
-  display:flex; 
-  gap:10px;
-  margin-bottom:5px;
+.imageCarousel {
+  filter: brightness(50%);
+  opacity: 0.9; /* Opacidad del 70% */
+}
+.carousel-info p {
+  text-align: end;
+  letter-spacing: 1.8px; /* Separación entre palabras de 2 píxeles */
+  line-height: 23px; /* Altura de línea de 30 píxeles */
+}
+.carousel-info h1 {
+  font-size: 28px !important;
+}
+.sectionOradores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+.cardOradores {
+  height: 607px;
+  width: 375px;
+}
+.divCardsOradores {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.divImgCardOradores {
+  height: 375px;
+  width: 375px;
+}
+.divImgCardOradores img {
+  height: 100%;
+  width: 100%;
 }
 
-.btnJs{
-  background-color:yellow;
-  padding:5px;
-  border-radius:5px;
+.btnCardOradores {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
 }
 
-.btnReact{
-  padding:5px;
-  border-radius:5px;
-  background-color:blue;
-  color:white
-}
-.btnNegocios{
-  padding:5px;
-  border-radius:5px;
-  background-color:gray;
-  color:white;
+.btnJs {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.btnStartups{
-  padding:5px;
-  border-radius:5px;
-  background-color:red;
-  color:white
+.btnReact {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+.btnNegocios {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
 }
 
-.divTxtCardOradores{
-  padding:15px;
+.btnStartups {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+
+.divTxtCardOradores {
+  padding: 15px;
   border: solid 1px gray;
 }
-.divTxtCardOradores h3{ 
+.divTxtCardOradores h3 {
   font-weight: bold;
-  margin-bottom:10px;
-  font-size:x-large;
-  
+  margin-bottom: 10px;
+  font-size: x-large;
 }
 
-.divTxtCardOradores p{
+.divTxtCardOradores p {
   letter-spacing: 2px;
   line-height: 1.7;
 }
 
-.conoceOradores{
-  display:flex;
+.conoceOradores {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:30px;
-  gap:5px;
+  margin: 30px;
+  gap: 5px;
   text-transform: uppercase;
 }
-.conoceOradores h1{
-  font-size:xx-large;
+.conoceOradores h1 {
+  font-size: xx-large;
   font-weight: bold;
 }
 
-.sectionB{
-  margin-top:20px;
+.sectionB {
+  margin-top: 20px;
 }
 
-.baner{
-  display:flex;
+.baner {
+  display: flex;
   flex-direction: column;
+  background-color: #343a40;
 }
 
-.divImgBaner{
-  
+.divImgBaner {
 }
-.divImgBaner img{
-  max-width:100%;
-  height:auto;
+.divImgBaner img {
+  max-width: 100%;
+  height: auto;
 }
 
-
-.divInfoBaner{
-  display:flex;
+.divInfoBaner {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap:15px;
-  padding:15px;
+  gap: 15px;
+  padding: 15px;
   background-color: #343a40;
-  color:white;
+  color: white;
   letter-spacing: 2px;
   line-height: 1.7;
 }
 
-.divInfoBaner p{
+.divInfoBaner p {
   font-weight: 300;
 }
-.divInfoBaner button{
+.divInfoBaner button {
   background-color: transparent;
   padding: 0;
   margin: 0;
   font-size: inherit;
   font-family: inherit;
-  cursor: pointer;  
-  border-radius:5px;
-  color:white;
-  padding:5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
   border: 1px solid white;
 }
-.divInfoBaner button:hover{
+.divInfoBaner button:hover {
   border: 1px solid white;
-  color:black;
+  color: black;
   background-color: white;
 }
+.divImgBaner {
+  width: 100%;
+}
+.divInfoBaner {
+  width: 100% !important;
+}
 
+.bigConvierteteOrador {
+  padding: 10px;
+}
+.convierteteOradorTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 10px 0;
+  gap: 5px;
+  text-transform: uppercase;
+}
 
-.footer{
-  background: rgba(13,36,61,1);
-  background: -moz-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(13,36,61,1)), color-stop(0%, rgba(13,36,61,1)), color-stop(98%, rgba(73,155,234,1)));
-  background: -webkit-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
-  background: -o-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
-  background: -ms-linear-gradient(left, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
-  background: linear-gradient(to right, rgba(13,36,61,1) 0%, rgba(13,36,61,1) 0%, rgba(73,155,234,1) 98%);
+.convierteteOradorTitle h1 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.divInputsUno {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+.divInputsUno input {
+  height: 30px;
+}
+
+.formOrador {
+  margin: 10px 0;
+}
+.formOrador h5 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.divTextareaForm {
+  margin: 10px 0;
+}
+.divTextareaForm textarea {
+  width: 100%;
+  height: 150px;
+}
+textarea::placeholder {
+  padding: 5px;
+}
+input::placeholder {
+  padding: 5px;
+}
+
+.divTextareaForm h6 {
+  color: gray;
+  font-size: small;
+}
+.divBtnForm {
+  display: flex;
+}
+.btnEnviarForm {
+  all: unset;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #8bc34a;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  background: rgba(13, 36, 61, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(73, 155, 234, 1) 98%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(13, 36, 61, 1)),
+    color-stop(0%, rgba(13, 36, 61, 1)),
+    color-stop(98%, rgba(73, 155, 234, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(73, 155, 234, 1) 98%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(73, 155, 234, 1) 98%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(73, 155, 234, 1) 98%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(13, 36, 61, 1) 0%,
+    rgba(73, 155, 234, 1) 98%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d243d', endColorstr='#499bea', GradientType=1 );
-  color:white;
-  display:flex;
+  color: white;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:20px;
+  padding: 40px 20px;
+  margin-top: 30px;
 }
 
-.footer ol{
-  display:flex;
+.footer ol {
+  display: flex;
   flex-direction: column;
-  gap:11px;
+  gap: 11px;
 }
-.footer ul{
-  display:flex;
+.footer ul {
+  display: flex;
   flex-direction: column;
-  gap:11px;
+  gap: 11px;
 }
 
-.footer li:hover{
-  text-decoration:underline;
+.footer li:hover {
+  text-decoration: underline;
 }
-.footer h4{
-  display:flex;
+.footer h4 {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align:center;
-  color:black;
-  border-top:1px solid black;
-  padding-top:20px;
+  text-align: center;
+  color: black;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+/* Estilos  a partir de 550px */
+@media screen and (min-width: 600px) {
+  .divCardsOradores {
+    width: 580px;
+  }
+  .cardOradores {
+    display: flex;
+    height: 270px;
+    width: 560px;
+  }
+  .divImgCardOradores {
+    height: 270px;
+    width: 270px;
+  }
+  .divImgCardOradores img {
+    height: 270px;
+    width: 270px;
+  }
+
+  .footer ol {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .footer h4 {
+    width: 100%;
+  }
+  .divInputsUno {
+    flex-direction: row;
+    width: 100%;
+  }
+  .divInputsUno input {
+    width: 290px;
+  }
+  .formOrador {
+    max-width: 600px;
+  }
+  .bigConvierteteOrador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+@media screen and (min-width: 768px) {
+  
+  .carousel-info {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end !important;
+    gap: 20px;
+    width:633px;
+    /* right: 0; */
+    left: 10%;
+    bottom:60px;
+  
+  }
+}
+@media screen and (min-width: 1024px) {
+  .baner {
+    flex-direction: row;
+  }
+  .divImgBaner {
+    width: 50%;
+  }
+  .divInfoBaner {
+    width: 50% !important;
+  }
+  .carousel-info {
+    left: 30%;
+    bottom:160px;
+  
+  }
+}
+/* Estilos a partir de 1024px */
+@media screen and (min-width: 1200px) {
+  .divCardsOradores {
+    flex-direction: row;
+    width: 1040px;
+    height: 607px;
+  }
+
+  .sectionOradores {
+  }
+
+  .cardOradores {
+    flex-direction: column;
+  }
+
+  .divImgCardOradores img {
+    height: 300px;
+    width: 300px;
+  }
+  .divImgCardOradores {
+    height: 300px;
+    width: 300px;
+  }
+  .divTxtCardOradores {
+    width: 300px;
+  }
+
+  .footer ul {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .footer ol {
+    gap: 30px;
+  }
+  .carousel-info {
+    left: 35%;
+    bottom:100px;
+  
+  }
 }

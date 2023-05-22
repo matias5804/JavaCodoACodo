@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/tickets.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TP Codo a Codo - VENTA DE TICKETS -Matias Alonso Pisani</title>
+  </head>
+  <body>
+    <!--INICIO DEL HEADER-->
+    <header class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand divBrandHeader" href="#">
+        <img class="brandHeader" src="../assets/img/codoacodo.png" alt="" />
+        <h3>Conf Bs As</h3>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">La Conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Los Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">El Lugar y la Fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Conviértete en Orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="./Pages/tickets.html"
+              >Comprar Tickets</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--FIN DEL HEADER-->
+
+    <main>
+      <section class="containerTickets">
+        <div class="divEstTraiJu">
+          <div class="divEst divCardTicket">
+            <h1 class="titleCardTickets">Estudiante</h1>
+            <h3>Tienen un descuento</h3>
+            <h3 class="porcent">80%</h3>
+            <h5>* presentar documentación</h5>
+          </div>
+          <div class="divTrainee divCardTicket">
+            <h1 class="titleCardTickets">Trainee</h1>
+            <h3>Tienen un descuento</h3>
+            <h3 class="porcent">50%</h3>
+            <h5>* presentar documentación</h5>
+          </div>
+          <div class="divJunior divCardTicket">
+            <h1 class="titleCardTickets">Junior</h1>
+            <h3>Tienen un descuento</h3>
+            <h3 class="porcent">15%</h3>
+            <h5>* presentar documentación</h5>
+          </div>
+        </div>
+        <div class="titleFormTickets">
+          <h3>VENTA</h3>
+          <h1>VALOR DE TICKET $200</h1>
+        </div>
+
+        <div class="row big-form-tickets">
+          <div class="divFormTickets">
+            <form>
+              <div class="form-group div-form-name-lastname">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nombre"
+                  placeholder="Nombre"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="apellido"
+                  placeholder="Apellido"
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Correo"
+                />
+              </div>
+
+              <div class="divCantidadSelect">
+                <label for="cantidad" class="cantidad"
+                  >Cantidad
+
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="cantidad"
+                    placeholder="cantidad"
+                  />
+                </label>
+                <label for="cantidad" class="categoriaTickets"
+                  >Categoria
+                  <select className="form-select" aria-label="">
+                    <option value="1" selected>Estudiante</option>
+                    <option value="2">Trainee</option>
+                    <option value="3">Junior</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="divTotalTickets">
+                <h3>Total a pagar:$</h3>
+              </div>
+
+              <div class="div-btns-tickets">
+
+                <button type="" class="btn btn-borrar">Borrar</button>
+                <button type="submit" class="btn btn-resumen">Resumen</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </main>
+
+    <footer class="footer">
+      <ol>
+        <ul>
+          <li>Preguntas frecuentes</li>
+          <li>Contáctanos</li>
+          <li>Prensa</li>
+          <li>Conferencias</li>
+        </ul>
+        <ul>
+          <li>Términos y condiciones</li>
+          <li>Privacidad</li>
+          <li>Estudiantes</li>
+        </ul>
+      </ol>
+
+      <hr />
+      <hr />
+      <h4>Matias Alonso Pisani - Codo a Codo JAVA 2023</h4>
+    </footer>
+  </body>
+</html>

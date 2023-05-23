@@ -323,6 +323,14 @@ input::placeholder {
   padding-top: 20px;
 }
 
+.div-btns-carousel{
+  display: flex;
+}
+.div-btns-carousel a{
+  margin:0;
+  padding:0;
+}
+
 /* Estilos  a partir de 550px */
 @media screen and (min-width: 600px) {
   .divCardsOradores {

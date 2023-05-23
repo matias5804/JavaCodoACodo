@@ -53,9 +53,7 @@
             <a class="nav-link" href="#">Conviértete en Orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-success" href=""
-              >Comprar Tickets</a
-            >
+            <a class="nav-link text-success" href="">Comprar Tickets</a>
           </li>
         </ul>
       </div>
@@ -91,7 +89,7 @@
 
         <div class="row big-form-tickets">
           <div class="divFormTickets">
-            <form>
+            <form id="ticketForm">
               <div class="form-group div-form-name-lastname">
                 <input
                   type="text"
@@ -127,9 +125,9 @@
                     placeholder="cantidad"
                   />
                 </label>
-                <label for="cantidad" class="categoriaTickets"
+                <label for="categoria" class="categoriaTickets"
                   >Categoria
-                  <select className="form-select" aria-label="">
+                  <select className="form-select" aria-label="" id="categoria">
                     <option value="1" selected>Estudiante</option>
                     <option value="2">Trainee</option>
                     <option value="3">Junior</option>
@@ -138,12 +136,13 @@
               </div>
 
               <div class="divTotalTickets">
-                <h3>Total a pagar:$</h3>
+                <h3>Total a pagar: $<span id="total"></span></h3>
               </div>
 
               <div class="div-btns-tickets">
-
-                <button type="" class="btn btn-borrar">Borrar</button>
+                <button type="" class="btn btn-borrar" id="btn-borrar">
+                  Borrar
+                </button>
                 <button type="submit" class="btn btn-resumen">Resumen</button>
               </div>
             </form>
@@ -151,7 +150,18 @@
         </div>
       </section>
 
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <!-- Ventana modal -->
+      <div id="modal" class="modal">
+        <div class="modal-content" id="modal-content">
+          <!-- Contenido de la ventana modal -->
+          <h2>Resumen de la compra</h2>
+          <h1><span id="resumen-nombre"></span> Gracias por tu compra!</h1>
+          <p>Cantidad de tickets: <span id="resumen-cantidad"></span></p>
+          <p>Categoría: <span id="resumen-categoria"></span></p>
+          <p>Total a pagar: $<span id="resumen-precio"></span></p>
+          <button class="btn btn-close-modal">Cerrar</button>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
@@ -173,5 +183,7 @@
       <hr />
       <h4>Matias Alonso Pisani - Codo a Codo JAVA 2023</h4>
     </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>

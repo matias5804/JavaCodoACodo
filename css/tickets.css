@@ -134,6 +134,45 @@
   gap: 10px;
 }
 
+  /* Estilos para la ventana modal */
+  .modal {
+    display: none; /* Ocultar la ventana modal por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;  
+  }
+  .modal-content h2 {
+    font-size:20px;
+    margin:5px;
+    text-transform:uppercase;
+  }
+  .modal-content button{
+    margin-top:10px;
+    width:max-content;
+    background-color: #97c93e;
+    color: white;
+  }
+
 @media screen and (min-width: 768px) {
   .divEstTraiJu {
     flex-direction: row;

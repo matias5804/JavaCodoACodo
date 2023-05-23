@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     // Obtener referencia al botón "Resumen"
     var resumenBtn = document.querySelector('.btn-resumen');
@@ -54,3 +55,21 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+  // var ticketForm = document.getElementById('ticketForm');
+  //     ticketForm.addEventListener('submit', function(event) {
+  //       event.preventDefault(); // Evitar el envío del formulario
+
+  //       // Validación de campos requeridos
+  //       var nombre = document.getElementById('nombre').value;
+  //       var apellido = document.getElementById('apellido').value;
+  //       var email = document.getElementById('email').value;
+  //       var cantidad = document.getElementById('cantidad').value;
+
+  //       if (nombre === '' || apellido === '' || email === '' || cantidad === '') {
+  //         alert('Por favor, complete todos los campos del formulario.');
+  //         return;
+  //       }
+  //     })
+
+  //     // Si los campos son válidos, realiza las acciones actuales de resumen
+  //     // ...

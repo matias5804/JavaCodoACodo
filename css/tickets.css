@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  transition: transform 0.3s ease; /* Agregar transición de 0.3 segundos con aceleración suave */
 }
 
 .divCardTicket h5 {
@@ -138,7 +139,7 @@
   .modal {
     display: none; /* Ocultar la ventana modal por defecto */
     position: fixed;
-    z-index: 1;
+    z-index: 100000;
     left: 0;
     top: 0;
     width: 100%;
@@ -171,6 +172,15 @@
     width:max-content;
     background-color: #97c93e;
     color: white;
+  }
+
+  .divCardTicket.selected {
+    background-color:#F3F3F3;
+    transform: scale(1.1); /* Establecer el tamaño escalado por defecto */
+    -webkit-box-shadow: 2px 0px 18px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: 2px 0px 18px 0px rgba(0,0,0,0.52);
+    box-shadow: 2px 0px 18px 0px rgba(0,0,0,0.52);
+    
   }
 
 @media screen and (min-width: 768px) {
